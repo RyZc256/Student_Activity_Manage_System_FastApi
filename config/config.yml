@@ -1,0 +1,26 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: ActivityManagement
+  username: amsdb
+  password: root
+
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  username: root
+  password: roote
+
+
+path:
+  logs_root_path: /logs
+
+
+wechat:
+  appid: 123
+  secret: 123
+  login_host: https://api.weixin.qq.com/sns/jscode2session
+
+token:
+  secret_key: 123421341243
